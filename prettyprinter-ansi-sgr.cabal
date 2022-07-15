@@ -1,0 +1,43 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.7.
+--
+-- see: https://github.com/sol/hpack
+
+name:           prettyprinter-ansi-sgr
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/reixn/prettyprinter-ansi-sgr#readme>
+category:       Text, User Interfaces
+homepage:       https://github.com/reixn/prettyprinter-ansi-sgr#readme
+bug-reports:    https://github.com/reixn/prettyprinter-ansi-sgr/issues
+author:         reixn
+maintainer:     reixn@outlook.com
+copyright:      2022 reixn
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/reixn/prettyprinter-ansi-sgr
+
+library
+  exposed-modules:
+      Prettyprinter.Render.TerminalSgr
+      Prettyprinter.Render.TerminalSgr.Internal
+  other-modules:
+      Paths_prettyprinter_ansi_sgr
+  hs-source-dirs:
+      src
+  other-extensions:
+      OverloadedStrings
+  build-depends:
+      ansi-terminal
+    , base >=4.7 && <5
+    , prettyprinter >=1.7.0
+    , semigroups >=0.1
+    , text >=1.2
+  default-language: Haskell2010
