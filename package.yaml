@@ -21,6 +21,13 @@ description:         Please see the README on GitHub at <https://github.com/reix
 
 dependencies:
 - base >= 4.7 && < 5
+- ansi-terminal
+- prettyprinter >= 1.7.0
+- text >= 1.2
+- semigroups >= 0.1
+
+other-extensions:
+- OverloadedStrings
 
 library:
   source-dirs: src
