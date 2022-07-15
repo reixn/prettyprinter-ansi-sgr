@@ -2,7 +2,7 @@ name:                prettyprinter-ansi-sgr
 version:             0.1.0.0
 github:              "reixn/prettyprinter-ansi-sgr"
 license:             BSD3
-author:              "reixn"
+author:              "Kyle Rogers"
 maintainer:          "reixn@outlook.com"
 copyright:           "2022 reixn"
 
@@ -11,7 +11,7 @@ extra-source-files:
 - ChangeLog.md
 
 # Metadata used when publishing your package
-# synopsis:            Short description of your package
+synopsis:            ANSI terminal backend (raw SGR) for the »prettyprinter« package.
 category:            Text, User Interfaces
 
 # To avoid duplicated efforts in documentation and dealing with the
