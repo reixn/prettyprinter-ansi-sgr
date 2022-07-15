@@ -1,0 +1,4 @@
+.stack-work/
+*~
+prettyprinter-ansi-sgr.cabal
+stack.yaml.lock
